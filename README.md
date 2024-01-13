@@ -1,3 +1,5 @@
 # emetec-payment-plugin
 
-Emetec-Woocommerce payment integration.
+Custom Woocommerce Payment Plugin using Emetec API.
+
+API URL: https://docs.emetec.pro/tutorials/integration-guide

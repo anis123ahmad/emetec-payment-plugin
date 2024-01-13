@@ -1,9 +1,11 @@
 <?php
 /**
- * Plugin Name: Emetec Payment Gateway for WooCommerce
- * Description: Custom WooCommerce Payment Gateway Integration for Emetec.
- * Author: Emetec
- * Version: 0.0.2
+ * Plugin Name: Emetec Payment Gateway Plugin for WooCommerce 
+ * Description: Custom WooCommerce Payment Gateway Plugin using Emetec API.
+ * Author: Anis
+ * Version: 1.0.0
+ * Author URI: https://github.com/anis123ahmad
+ * Text Domain: emetec-payment-plugin
  *  License: GNU General Public License v3.0
  *  License URI: http://www.gnu.org/licenses/gpl-3.0.html
  */
@@ -40,7 +42,7 @@ function emetec_payment_gateway_epg_init(){
         return;
 
     emetec_payment_gateway_epg()->run_emetec();
-}//enf of function
+}//end of function
 
 function emetec_payment_gateway_epg_notices( $notice ) {
     ?>
@@ -49,7 +51,6 @@ function emetec_payment_gateway_epg_notices( $notice ) {
     </div>
     <?php
 }
-
 
 function requeriments_emetec_payment_gateway_epg(){
 
@@ -89,4 +90,4 @@ function emetec_payment_gateway_epg(){
     
 	return $plugin;
 	
-}//enf of function
+}//end of function
